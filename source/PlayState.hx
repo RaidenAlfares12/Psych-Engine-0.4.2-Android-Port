@@ -1,4 +1,4 @@
-﻿package;
+package;
 
 #if desktop
 import Discord.DiscordClient;
@@ -954,11 +954,6 @@ class PlayState extends MusicBeatState
 
 			add(mcontrols);
 			 
-                  if (SONG.song.toLowerCase() == 'Bopeebo') {
-                  
-             addVirtualPad(A);
-              }
-			
 		#end		
 
 		// if (SONG.song == 'South')
