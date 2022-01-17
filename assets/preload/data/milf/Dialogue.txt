@@ -1,0 +1,11 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.06,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hello Im Boyfriend"
+		}
+	]
+}
