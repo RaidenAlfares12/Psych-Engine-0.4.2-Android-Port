@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PICO_Dialogue.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PICO0000" x="22" y="12" width="376" height="393" pivotX="-66.25" pivotY="-60.45"/>
+	<SubTexture name="PICO0001" x="408" y="6" width="376" height="393"/>
+	<SubTexture name="PICO TALK0000" x="864" y="23" width="376" height="393" pivotX="-72.35" pivotY="-60.45"/>
+	<SubTexture name="PICO TALK0001" x="1240" y="23" width="376" height="393"/>
+	<SubTexture name="PICO TALK0002" x="1634" y="23" width="376" height="393"/>
+	<SubTexture name="PICO TALK LOOP0000" x="864" y="23" width="376" height="393" pivotX="-69.3" pivotY="-46.6"/>
+	<SubTexture name="PICO TALK LOOP0001" x="1240" y="23" width="376" height="393"/>
+	<SubTexture name="PICO TALK LOOP0002" x="1634" y="23" width="376" height="393" frameX="-3" frameY="-6" frameWidth="376" frameHeight="393"/>
+</TextureAtlas>
