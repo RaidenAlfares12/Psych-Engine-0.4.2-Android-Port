@@ -961,6 +961,9 @@ class PlayState extends MusicBeatState
 			mcontrols.visible = false;
 
 			add(mcontrols);
+			
+			if (curSong == 'bopeebo') {
+		    addVirtualPad(NONE, A);
 			 
 		#end		
 
