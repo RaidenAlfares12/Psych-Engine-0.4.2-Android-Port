@@ -964,6 +964,7 @@ class PlayState extends MusicBeatState
 			
 			if (curSong == 'Bopeebo') {
 		        addVirtualPad(NONE, A);
+		        virtualpad.buttonA.justPressed
 		     }
 		#end		
 
