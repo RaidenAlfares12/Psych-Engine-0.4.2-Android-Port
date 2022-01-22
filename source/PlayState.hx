@@ -963,8 +963,26 @@ class PlayState extends MusicBeatState
 			add(mcontrols);
 			
 			if (curSong == 'Bopeebo') {
-		        addVirtualPad(NONE, A);
-		     }
+		    addVirtualPad(NONE, A);
+			 }
+			
+			var dodge:Bool = false;
+var canDodge:Bool = true;
+
+if (controls.ACCEPT) {
+    if (canDodge) {
+        dodge = true;
+        canDodge = false;
+        write here code that might be executed when you dodging
+        new FlxTimer().start(time that you will be in dodge, function() {
+            dodge = false;
+            canDodge = true;
+         });
+    } else {
+        code that will be executed if you press A when you already in dodge, if not needed leave here empty line
+    }
+}
+			
 		#end		
 
 		// if (SONG.song == 'South')
@@ -1074,7 +1092,7 @@ class PlayState extends MusicBeatState
 		super.create();
 	}
 
-	public function addTextToDebug(text:String) {
+	public function addTextToDebug(text:String) {}
 		luaDebugGroup.forEachAlive(function(spr:DebugLuaText) {
 			spr.y += 20;
 		});
@@ -2360,7 +2378,7 @@ class PlayState extends MusicBeatState
 		
 		#if debug
 		if(!endingSong && !startingSong) {
-			if (virtualpad.buttonA.justPressed.ONE) {
+			if (virtualpad.buttonA.justPressed) {
 				KillNotes();
 				FlxG.sound.music.onComplete();
 			}
