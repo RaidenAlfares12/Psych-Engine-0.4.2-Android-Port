@@ -964,7 +964,6 @@ class PlayState extends MusicBeatState
 			
 			if (curSong == 'Bopeebo') {
 		        addVirtualPad(NONE, A);
-		        virtualpad.buttonA.justPressed
 		     }
 		#end		
 
@@ -2361,7 +2360,7 @@ class PlayState extends MusicBeatState
 		
 		#if debug
 		if(!endingSong && !startingSong) {
-			if (FlxG.keys.justPressed.ONE) {
+			if (virtualpad.buttonA.justPressed.ONE) {
 				KillNotes();
 				FlxG.sound.music.onComplete();
 			}
