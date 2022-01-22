@@ -958,31 +958,14 @@ class PlayState extends MusicBeatState
 			camcontrol.bgColor.alpha = 0;
 			mcontrols.cameras = [camcontrol];
 
-			mcontrols.visible = false;
+			mcontrols.visible = true;
 
 			add(mcontrols);
 			
 			if (curSong == 'Bopeebo') {
 		    addVirtualPad(NONE, A);
 			 }
-			
-			var dodge:Bool = false;
-var canDodge:Bool = true;
 
-if (controls.ACCEPT) {
-    if (canDodge) {
-        dodge = true;
-        canDodge = false;
-        write here code that might be executed when you dodging
-        new FlxTimer().start(time that you will be in dodge, function() {
-            dodge = false;
-            canDodge = true;
-         });
-    } else {
-        code that will be executed if you press A when you already in dodge, if not needed leave here empty line
-    }
-}
-			
 		#end		
 
 		// if (SONG.song == 'South')
