@@ -4,7 +4,7 @@ function onCreate()
     canDodge = false;
     DodgeTime = 0;
 	
-    precacheImage('black');
+    precacheImage('spacebar_icon');
 end
 
 function onEvent(name, value1, value2)
@@ -13,12 +13,12 @@ function onEvent(name, value1, value2)
     DodgeTime = (value1);
 	
     --Make Dodge Sprite
-	makeAnimatedLuaSprite('black', 'black', 420, 200);
-    luaSpriteAddAnimationByPrefix('black', 'black', 'black', 25, true);
-	luaSpritePlayAnimation('black', 'black');
-	setObjectCamera('black', 'other');
-	scaleLuaSprite('basck', 0.4, 0.4); 
-    addLuaSprite('black', true); 
+	makeAnimatedLuaSprite('spacebar', 'spacebar_icon', 420, 200);
+    luaSpriteAddAnimationByPrefix('spacebar', 'spacebar', 'spacebar', 25, true);
+	luaSpritePlayAnimation('spacebar', 'spacebar');
+	setObjectCamera('spacebar', 'other');
+	scaleLuaSprite('spacebar', 0.4, 0.4); 
+    addLuaSprite('spacebar', true); 
 	
 	--Set values so you can dodge
 	canDodge = true;
@@ -33,7 +33,7 @@ function onUpdate()
    Dodged = true;
    
    setProperty('boyfriend.specialAnim', true);
-   removeLuaSprite('A');
+   removeLuaSprite('spacebar');
    canDodge = false
    
    end
