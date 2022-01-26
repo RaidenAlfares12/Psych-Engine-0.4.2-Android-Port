@@ -1,4 +1,4 @@
-﻿package;
+package;
 
 #if desktop
 import Discord.DiscordClient;
@@ -1075,7 +1075,7 @@ class PlayState extends MusicBeatState
 		super.create();
 	}
 
-	public function addTextToDebug(text:String) {
+	public function addTextToDebug(text:String) {}
 		luaDebugGroup.forEachAlive(function(spr:DebugLuaText) {
 			spr.y += 20;
 		});
