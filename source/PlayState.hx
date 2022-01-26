@@ -1076,7 +1076,7 @@ class PlayState extends MusicBeatState
 	}
 
 	public function addTextToDebug(text:String) {}
-		luaDebugGroup.forEachAlive(function(spr:DebugLuaText) {
+		luaDebugGroup.forEachAlive(function(spr:DebugLuaText) {}
 			spr.y += 20;
 		});
 		luaDebugGroup.add(new DebugLuaText(text, luaDebugGroup));
