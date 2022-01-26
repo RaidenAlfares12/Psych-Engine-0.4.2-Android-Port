@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="attack_alert.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="alert0000" x="100" y="100" width="256" height="257"/>
+	<SubTexture name="alert0001" x="100" y="100" width="256" height="257"/>
+	<SubTexture name="alert0002" x="100" y="100" width="256" height="257"/>
+	<SubTexture name="alert0003" x="456" y="100" width="256" height="257"/>
+	<SubTexture name="alert0004" x="812" y="100" width="256" height="257"/>
+	<SubTexture name="alert0005" x="1168" y="100" width="256" height="257"/>
+	<SubTexture name="alert0006" x="1524" y="100" width="256" height="257"/>
+	<SubTexture name="alert0007" x="100" y="457" width="256" height="257"/>
+</TextureAtlas>
