@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="CMonika.png"><SubTexture name="Monika idle0000" x="0" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0001" x="0" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0002" x="0" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0003" x="1000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0004" x="1000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0005" x="1000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0006" x="2000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0007" x="2000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0008" x="2000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0009" x="3000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0010" x="3000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0011" x="3000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0012" x="4000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0013" x="4000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0014" x="4000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0015" x="5000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0016" x="5000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika idle0017" x="5000" y="0" width="1000" height="1000"  />
+<SubTexture name="Monika down0001" x="0" y="1000" width="1000" height="1000"  />
+<SubTexture name="Monika down0002" x="1000" y="1000" width="1000" height="1000"  />
+<SubTexture name="Monika down0003" x="2000" y="1000" width="1000" height="1000"  />
+<SubTexture name="Monika down0004" x="2000" y="1000" width="1000" height="1000"  />
+<SubTexture name="Monika left0000" x="0" y="2000" width="1000" height="1000"  />
+<SubTexture name="Monika left0001" x="1000" y="2000" width="1000" height="1000"  />
+<SubTexture name="Monika left0002" x="2000" y="2000" width="1000" height="1000"  />
+<SubTexture name="Monika left0003" x="2000" y="2000" width="1000" height="1000"  />
+<SubTexture name="Monika right0000" x="3000" y="2000" width="1000" height="1000"  />
+<SubTexture name="Monika right0001" x="4000" y="2000" width="1000" height="1000"  />
+<SubTexture name="Monika right0002" x="5000" y="2000" width="1000" height="1000"  />
+<SubTexture name="Monika right0003" x="5000" y="2000" width="1000" height="1000"  />
+<SubTexture name="Monika up0000" x="3000" y="1000" width="1000" height="1000"  />
+<SubTexture name="Monika up0001" x="4000" y="1000" width="1000" height="1000"  />
+<SubTexture name="Monika up0002" x="5000" y="1000" width="1000" height="1000"  />
+<SubTexture name="Monika up0003" x="5000" y="1000" width="1000" height="1000"  />
+</TextureAtlas>
