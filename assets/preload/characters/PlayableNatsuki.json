@@ -1,0 +1,221 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				55,
+				180
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Natsuki idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				181
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Natsuki note left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				179
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Natsuki note down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				43,
+				180
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Natsuki note up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				57,
+				181
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Natsuki note right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				181
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Natsuki left MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				180
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Natsuki down MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				42,
+				179
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Natsuki up MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				57,
+				180
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Natsuki right MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				5
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "noon haha",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				18
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "ouch",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-4,
+				0
+			],
+			"anim": "scared",
+			"fps": 24,
+			"name": "fear",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				29,
+				179
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "Natsuki death animation",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				29,
+				179
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "Natsuki death loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				179
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "Natsuki retry",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				2,
+				178
+			],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "Natsuki dodge",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				294,
+				267
+			],
+			"anim": "attack",
+			"fps": 24,
+			"name": "cupcake attack, well no",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				-40
+			],
+			"anim": "pre-attack",
+			"fps": 24,
+			"name": "too lazy",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/PlayableNatsuki",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "normalnatsuki",
+	"flip_x": true,
+	"healthbar_colors": [
+		252,
+		149,
+		211
+	],
+	"camera_position": [
+		160,
+		-240
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

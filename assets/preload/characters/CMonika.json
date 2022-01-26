@@ -1,0 +1,153 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				160,
+				192
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Monika left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				166,
+				194
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Monika down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				160,
+				192
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Monika up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				200,
+				192
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Monika right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				167,
+				195
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Monika idle"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-120,
+				-89
+			],
+			"anim": "idle-loop",
+			"fps": 24,
+			"name": "Dad idle dance",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-120,
+				-88
+			],
+			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note LEFT",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-120,
+				-89
+			],
+			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "Dad Sing Note RIGHT",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-120,
+				-88
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "Dad Sing Note UP",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			]
+		},
+		{
+			"offsets": [
+				0,
+				62
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "Monika HEY"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/CMonika",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "monika",
+	"flip_x": false,
+	"healthbar_colors": [
+		140,
+		212,
+		101
+	],
+	"camera_position": [
+		10,
+		-140
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}
