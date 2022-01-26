@@ -1,0 +1,40 @@
+{
+	"storyName": "MANGA IS LITERATURE TOO!",
+	"difficulties": "Hardnt,Hard",
+	"hideFreeplay": false,
+	"weekBackground": "consultation",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "lunatic",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"consultation",
+			"Monika",
+			[
+				200,
+				180,
+				0
+			]
+		],
+		[
+			"Broken-Script",
+			"Monika",
+			[
+				200,
+				180,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "consultation"
+}
