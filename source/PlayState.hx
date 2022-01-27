@@ -958,14 +958,14 @@ class PlayState extends MusicBeatState
 			camcontrol.bgColor.alpha = 0;
 			mcontrols.cameras = [camcontrol];
 
-			mcontrols.visible = true;
+			mcontrols.visible = false;
 
 			add(mcontrols);
 			
-			if (curSong == 'Consultation') {
-		    addVirtualPad(NONE, A);
+			if (curSong == 'Bopeebo') {
+		        addVirtualPad(NONE, A);
 			 }
-
+			
 		#end		
 
 		// if (SONG.song == 'South')
@@ -1076,7 +1076,7 @@ class PlayState extends MusicBeatState
 	}
 
 	public function addTextToDebug(text:String) {}
-		luaDebugGroup.forEachAlive(function(spr:DebugLuaText) {}
+		luaDebugGroup.forEachAlive(function(spr:DebugLuaText) {
 			spr.y += 20;
 		});
 		luaDebugGroup.add(new DebugLuaText(text, luaDebugGroup));
@@ -2376,7 +2376,7 @@ if (controls.ACCEPT) {
 		
 		#if debug
 		if(!endingSong && !startingSong) {
-			if (virtualpad.buttonA.justPressed) {
+			if (FlxG.keys.justPressed.ONE) {
 				KillNotes();
 				FlxG.sound.music.onComplete();
 			}
