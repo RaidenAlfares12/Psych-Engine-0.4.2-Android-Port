@@ -1076,7 +1076,7 @@ class PlayState extends MusicBeatState
 	}
 
 	public function addTextToDebug(text:String) {}
-		luaDebugGroup.forEachAlive(function(spr:DebugLuaText) {
+		luaDebugGroup.forEachAlive(function(spr:DebugLuaText) {}
 			spr.y += 20;
 		});
 		luaDebugGroup.add(new DebugLuaText(text, luaDebugGroup));
@@ -1872,7 +1872,7 @@ if (controls.ACCEPT) {
             canDodge = true;
          });
     } else {
-        code that will be executed if you press A when you already in dodge, if not needed leave here empty line
+        // code that will be executed if you press A when you already in dodge, if not needed leave here empty line
     }
 }
 
