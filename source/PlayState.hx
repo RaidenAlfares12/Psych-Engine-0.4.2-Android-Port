@@ -1860,21 +1860,22 @@ class PlayState extends MusicBeatState
 		{
 			iconP1.swapOldIcon();
 		}*/var dodge:Bool = false;
-var canDodge:Bool = true;
+        var canDodge:Bool = true;
 
-if (controls.ACCEPT) {
-    if (canDodge) {
-        dodge = true;
-        canDodge = false;
-        write here code that might be executed when you dodging;
-        new FlxTimer().start(time that you will be in dodge, function() {
-            dodge = false;
-            canDodge = true;
-         });
-    } else {
-        // code that will be executed if you press A when you already in dodge, if not needed leave here empty line
-    }
-}
+        if (controls.ACCEPT) {
+            if (canDodge) {
+                dodge = true;
+                canDodge = false;
+                //write here code that might be executed when you dodging
+                boyfriend.playAnim('dodge');
+                new FlxTimer().start(1, function() {
+                    dodge = false;
+                    canDodge = true;
+                });
+            } else {
+                // code that will be executed if you press A when you already in dodge, if not needed leave here empty line
+            }
+        }
 
 		callOnLuas('onUpdate', [elapsed]);
 
