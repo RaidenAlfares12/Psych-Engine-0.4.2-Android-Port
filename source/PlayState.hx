@@ -1866,7 +1866,7 @@ if (controls.ACCEPT) {
     if (canDodge) {
         dodge = true;
         canDodge = false;
-        write here code that might be executed when you dodging
+        write here code that might be executed when you dodging:
         new FlxTimer().start(time that you will be in dodge, function() {
             dodge = false;
             canDodge = true;
