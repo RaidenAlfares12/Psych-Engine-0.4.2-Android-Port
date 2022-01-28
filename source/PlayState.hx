@@ -962,9 +962,9 @@ class PlayState extends MusicBeatState
 
 			add(mcontrols);
 			
-			if (curSong == 'Bopeebo') {
+			if (curSong == 'Consultation') {
 		        addVirtualPad(NONE, A);
-			 }
+			}
 			
 		#end		
 
@@ -1075,8 +1075,8 @@ class PlayState extends MusicBeatState
 		super.create();
 	}
 
-	public function addTextToDebug(text:String) {}
-		luaDebugGroup.forEachAlive(function(spr:DebugLuaText) {}
+	public function addTextToDebug(text:String) {
+		luaDebugGroup.forEachAlive(function(spr:DebugLuaText) {
 			spr.y += 20;
 		});
 		luaDebugGroup.add(new DebugLuaText(text, luaDebugGroup));
