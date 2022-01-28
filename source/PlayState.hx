@@ -962,7 +962,7 @@ class PlayState extends MusicBeatState
 
 			add(mcontrols);
 			
-			if (curSong == 'Consultation') {
+			if (curSong == 'Bopeebo') {
 		        addVirtualPad(NONE, A);
 			}
 			
@@ -1868,7 +1868,7 @@ class PlayState extends MusicBeatState
                 canDodge = false;
                 //write here code that might be executed when you dodging
                 boyfriend.playAnim('dodge');
-                new FlxTimer().start(1, function() {
+                new FlxTimer().start(1, function(tmr:FlxTimer) {
                     dodge = false;
                     canDodge = true;
                 });
