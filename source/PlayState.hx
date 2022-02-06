@@ -953,6 +953,15 @@ class PlayState extends MusicBeatState
 			trackedinputsNOTES = controls.trackedinputsNOTES;
 			controls.trackedinputsNOTES = [];
 
+        var curcontrol:HitboxType = DEFAULT;
+
+		if (isRing) {
+			curcontrol = FIVE;
+		} else {
+			curcontrol = DEFAULT;
+		}
+		_hitbox = new Hitbox(curcontrol);
+
 			var camcontrol = new FlxCamera();
 			FlxG.cameras.add(camcontrol);
 			camcontrol.bgColor.alpha = 0;
