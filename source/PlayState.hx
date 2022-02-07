@@ -947,13 +947,7 @@ class PlayState extends MusicBeatState
 				case VIRTUALPAD_RIGHT | VIRTUALPAD_LEFT | VIRTUALPAD_CUSTOM:
 					controls.setVirtualPadNOTES(mcontrols._virtualPad, FULL, NONE);
 				case HITBOX:
-					controls.setHitBoxNOTES(mcontrols._hitbox);
-				default:
-			}
-			trackedinputsNOTES = controls.trackedinputsNOTES;
-			controls.trackedinputsNOTES = [];
-
-        var curcontrol:HitboxType = DEFAULT;
+					        var curcontrol:HitboxType = DEFAULT;
 
 		if (isRing) {
 			curcontrol = FIVE;
@@ -961,6 +955,11 @@ class PlayState extends MusicBeatState
 			curcontrol = DEFAULT;
 		}
 		_hitbox = new Hitbox(curcontrol);
+
+				default:
+			}
+			trackedinputsNOTES = controls.trackedinputsNOTES;
+			controls.trackedinputsNOTES = [];
 
 			var camcontrol = new FlxCamera();
 			FlxG.cameras.add(camcontrol);
