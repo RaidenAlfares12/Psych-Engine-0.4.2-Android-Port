@@ -947,17 +947,10 @@ class PlayState extends MusicBeatState
 				case VIRTUALPAD_RIGHT | VIRTUALPAD_LEFT | VIRTUALPAD_CUSTOM:
 					controls.setVirtualPadNOTES(mcontrols._virtualPad, FULL, NONE);
 				case HITBOX:
-					        var curcontrol:HitboxType = DEFAULT;
-
-		if (isRing) {
-			curcontrol = FIVE;
-		} else {
-			curcontrol = DEFAULT;
-		}
-		_hitbox = new Hitbox(curcontrol);
-
+					controls.setHitBoxNOTES(mcontrols._hitbox);
 				default:
 			}
+
 			trackedinputsNOTES = controls.trackedinputsNOTES;
 			controls.trackedinputsNOTES = [];
 
@@ -970,7 +963,7 @@ class PlayState extends MusicBeatState
 
 			add(mcontrols);
 			
-			if (curSong == 'Consultation') {
+			if (curSong == 'Bopeebo') {
 		        addVirtualPad(NONE, A);
 			}
 			
