@@ -1,4 +1,4 @@
-﻿package editors;
+package editors;
 
 #if desktop
 import Discord.DiscordClient;
@@ -79,7 +79,9 @@ class ChartingState extends MusicBeatState
 		['Screen Shake', "Value 1: Camera shake\nValue 2: HUD shake\n\nEvery value works as the following example: \"1, 0.05\".\nThe first number (1) is the duration.\nThe second number (0.05) is the intensity."],
 		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"], 
 		['DodgeEvent', "Value 1:Is how much time you have to dodge/nValue 2:Not defined"], 
-		['Image Flash', "Value 1: is the name of the image/nValue 2: is how long it's there for"]
+		['Image Flash', "Value 1: is the name of the image/nValue 2: is how long it's there for"], 
+		['Allow dodging', " Value 1: Cat/nValue 2: yes Is cat"], 
+		['Jumpscare Attack', "Value 1: Dog/nValue 2: YES IS DOGG"]
 	];
 
 	var _file:FileReference;
